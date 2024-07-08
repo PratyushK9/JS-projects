@@ -13,7 +13,7 @@ Responsive Design: Ensures the application looks good on various devices and scr
 Modern UI/UX: Clean and intuitive interface for an enhanced user experience.
 Technologies Used:
 
--HTML for structuring the content.
+-HTML for structuring the content.  
 -CSS for styling the application.  
 -JavaScript for dynamic content generation and functionality.
 
