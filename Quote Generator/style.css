@@ -57,9 +57,19 @@ button{
     border: none;
     border-radius: 7px;
     padding: 0.5rem 1rem;
+    box-shadow: 0 0.3rem rgba(121,121,121,0.65);
+
+}
+button:active{
+    transform: translate(0,0.5rem);
+    box-shadow: 0 0.1rem rgba(255,255,255,0.65);
 }
 
-.btn-1:hover{
+.fa-twitter:hover{
     color: #38a1f3;
 
+}
+.long-quote{
+    font-size: 1.5rem;
+    font-weight: 400;
 }
