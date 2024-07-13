@@ -9,10 +9,11 @@
 </head>
 <body>
 
-    <!-- <audio id="myAudio">
-        <source src="_Kisne_Touch_Kiya_Usko_Dialogue_Kabir_Singh_ringtone_(Fringster.com).mp3" type="audio/mpeg" id="kabir-singh-audio">
-        
-      </audio> -->
+    <audio id="myAudio" src="_Kisne_Touch_Kiya_Usko_Dialogue_Kabir_Singh_ringtone_(Fringster.com).mp3"></audio>
+    <!-- <button onclick="playAudio()">Play Audio</button>
+    <button onclick="pauseAudio()">Pause Audio</button>
+ -->
+
 
 
     <div id="second-main-container">
@@ -24,11 +25,13 @@
 
     <div class="buttons">
         <p>Do you Love me too??</p>
-        <button class="btn-1 btn yes" id="yes-btn">Yes</button>
-        <button class="btn-2 btn no" id="no-btn">No</button>
+        <button class="btn-1 btn yes" id="yes-btn" onclick="pauseAudio()">Yes</button>
+        <button class="btn-2 btn no" id="no-btn" onclick="playAudio()">No</button>
     </div>
 
-    <script src="script.js"></script>
+    <script src="secondscript.js"></script>
     
 </body>
 </html>
+
+
